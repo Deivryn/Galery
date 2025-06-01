@@ -1,0 +1,236 @@
+/*#region Login page*/
+ .first {
+    background-color: #202020;
+ }
+
+.border_login {
+    border-style: solid;
+    text-align: center;
+    color: #ffffff;
+    margin: 100px 400px auto 400px;
+    height: 600px;
+    background-color: #6f6e6e;
+}
+
+.login_1  {
+    background-color: #81fbb9;
+    border-style: solid;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+}
+
+.login_2  {
+    background-color: #9df9f9;
+    border-style: solid;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+}
+
+.user_input {
+    border-style: solid;
+    border-color: #000000;
+    font-style: italic;
+    font-size: medium;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 50px;
+}
+
+/*#endregion Login page*/
+
+/*#region All pages*/
+h1 {
+    font-size: xxx-large;
+    font-style: italic;   
+ }
+
+ h2 {
+    font-size: xx-large;
+ }
+
+ .name {
+    background-color: #ffffff;
+    border-style: dotted;
+    font-size: large;
+    font-style: italic;
+ }
+
+ /*#endregion All pages*/
+
+/*#region Main*/
+.section {
+    font-size: xx-large;
+    border-style: none;
+    background-color: #9df9f9;
+    font-style: italic;
+    margin-left: 1000px;
+    margin-right: -990px;
+}
+
+
+.container {
+    display: flex;
+    align-items: right;
+    background-color: #9df9f9;
+    width: 100%; /* Ensure the container takes full width of the page */
+    padding: 10px; /* Optional: Add padding for better spacing */
+    box-sizing: border-box; /* Ensure padding and borders are included in the total width */
+}
+
+
+/*#region picture_styles*/
+.picture_1 {
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 300px;
+    width: 250px;
+}
+
+.picture_2 {
+    margin-top: -300px;
+    margin-left: 750px;
+    height: 300px;
+    width: 250px;
+}
+
+.picture_3 {
+    margin-top: -300px;
+    margin-left: 1400px;
+}
+
+.picture_4 {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.picture_5 {
+    margin-top: -340px;
+    margin-left: 750px;
+}
+
+.picture_6 {
+    margin-top: -335px;
+    margin-left: 1400px;
+}
+/*#endregion picture_styles*/
+
+/*#region picture_names_pop*/
+    /* Used JavaScript, because i didn't want to make many different classes, but used 1 instead and combined it with JavaScript*/
+.name[data-name="Mona"]  {
+    margin-top: 5px; 
+    margin-left: 75px;
+}
+
+.name[data-name="Venus"]  {
+    margin-top: 5px; 
+    margin-left: 60px;
+}
+
+.name[data-name="Girl"]  {
+    margin-top: 5px; 
+    margin-left: 25px;
+}
+
+.name[data-name="Night"]  {
+    margin-top: 5px; 
+    margin-left: 75px;
+}
+
+.name[data-name="Starry"]  {
+    margin-top: 5px; 
+    margin-left: 60px;
+}
+
+.name[data-name="Scream"]  {
+    margin-top: 5px; 
+    margin-left: 70px;
+}
+/*#endregion picture_names_jauns*/
+
+/*#region picture_names_jauns*/
+    /* Used JavaScript, because i didn't want to make many different classes, but used 1 instead and combined it with JavaScript*/
+    .name[data-name="Bill"]  {
+        margin-top: 5px; 
+        margin-left: 100px;
+    }
+    
+    .name[data-name="Butterfly"]  {
+        margin-top: 5px; 
+        margin-left: 60px;
+    }
+    
+    .name[data-name="Fancy"]  {
+        margin-top: 5px; 
+        margin-left: 55px;
+    }
+    
+    .name[data-name="Lanterns"]  {
+        margin-top: 5px; 
+        margin-left: 75px;
+    }
+    
+    .name[data-name="Letting"]  {
+        margin-top: 5px; 
+        margin-left: 80px;
+    }
+    
+    .name[data-name="Pole"]  {
+        margin-top: 5px; 
+        margin-left: 80px;
+    }
+    /*#endregion picture_names_jauns*/
+
+/*#endregion Main*/
+
+/*#region 3.logs*/
+
+.picture_size {
+    position: absolute;  
+    height: 600px; 
+    width: 550px ;
+    top: 180px; 
+    left: 235px;
+}
+
+.text_loc_n {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 600px;
+}
+
+.text_loc_a {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 600px;
+}
+
+.text_loc_p {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 600px;
+}
+
+.border_3 {
+    border-style: double;
+    margin: 150px 200px 600px 200px;
+    height: 650px;
+    background-color: #ffffff;
+}
+
+
+
+
+/*#endregion 3.logs*/
+
+/*#region Random code*/
+
+/*.dissapear {
+    font-style: oblique;
+    border-style: solid;
+    border-width: 1px;
+    margin: 25px 200px ;
+}
+*/
+/*#endregion Random code*/
